@@ -209,6 +209,15 @@ class _ContactoState extends State<Contacto> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        SizedBox(height: 15),
+        Text('Contact',
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+        SizedBox(height: 10),
+        Container(
+          decoration: BoxDecoration(
+            border: Border.all(width: 0.5, color: Colors.black26),
+          ),
+        ),
         SizedBox(height: 10),
         Text(
           'Address',
